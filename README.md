@@ -1,36 +1,33 @@
-# curso-programacion-lorena
+# Curso Front CIFE
 
-Ejercicios del curso front end CIFE
+Ejercicios del curso Front en CIFE-Fuenlabrada (Abril/Julio 2019)
 
-## entorno
+## Entorno
 
-1-visual estudio code (instalar dsd la web)
-2-git (dsd la web)
-3-node js (desde la web)
-4-http-server (dsd terminal)
-
-```` shell
+1. Visual Studio Code (desde web)
+2. Git (desde web)
+3. NodeJS (desde web)
+4. Http-server: desde terminal 
+```shell
 npm install -g http-server
 ```
 
-## configurar git
-
-``` shell
-git config --global user.name
-git config --global user.email
-git config --global -l
+## Configurar Git
+```shell
+git config --global user.name <username>
+git config --global user.email <useremail>
+git congig --global -l
 ```
 
 ## Crear repositorio / clonar repositorio
 
-1. Crear repositorio
+1. Crear repositorio nuevo
 ```shell
-git init
+git init [<nombre>]
 ```
 
-2. Clonar un repositorio exixtente
+2. Clonar un repositorio existente
 ```shell
-git clone <enlace al repositorio githube>
+git clone <enlace al repositorio en github>
 ```
-
-Siempre crea una nueva carpeta en el punto en el que se ejecuta
+Siempre crea una nueva carpeta en el punto en que se ejecuta
