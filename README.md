@@ -20,3 +20,17 @@ git config --global user.name
 git config --global user.email
 git config --global -l
 ```
+
+## Crear repositorio / clonar repositorio
+
+1. Crear repositorio
+```shell
+git init
+```
+
+2. Clonar un repositorio exixtente
+```shell
+git clone <enlace al repositorio githube>
+```
+
+Siempre crea una nueva carpeta en el punto en el que se ejecuta
