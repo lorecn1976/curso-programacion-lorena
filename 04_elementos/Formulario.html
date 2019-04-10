@@ -47,9 +47,64 @@
                         <li>botones</li>
                     </ul>
                     <h3>Ejemplo de formulario</h3>
-                    <form action="">
-                        <input type="text" id="nombre" placeholder="Nombre">
-                        <button type="submit">Enviar</button>
+                    <form action="https://jsonplaceholder.typicode.com/users" method="POST">
+                        <fieldset>
+                            <legend>Datos personales</legend>
+                            <div>
+                                <label for="nombre">Nombre</label>
+                                <input type="text" name="nombre" id="nombre" placeholder="Nombre" required minlength="3">
+                            </div>
+                            <div>
+                                <label for="email">E-mail</label>
+                                <input type="email" name="" id="email" placeholder="Correo" required minlength="3">
+                            </div>
+                            <div>
+                                <label for="password">Password</label>
+                                <input type="password" name="password" id="password" placeholder="Password" required maxlength="4">
+                            </div>
+                            <div>
+                                <label for="comentarios">Comentarios</label>
+                                <input type="comentarios" name="comentarios">
+                            </div>
+                            <fieldset>
+                                <legend>Condiciones</legend>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium eos vitae iure
+                                    nostrum amet laborum ea eaque atque cum nemo sit, excepturi natus a et deleniti
+                                    ipsam. Non, placeat accusantium?</p>
+                                <div>
+                                    <input type="checkbox" name="aceptado" id="" required>
+                                    <label for="aceptado">Estoy de acuerdo con las condiciones</label>
+                                </div>
+                            </fieldset>
+                            <fieldset>
+                                <legend>Datos del curso</legend>
+                                <div>
+                                    <label for="curso">Curso</label>
+                                    <select name="curso" id="curso">
+                                        <optgroup label="Front">
+                                            <option value=".">Selecciona curso</option>
+                                            <option value=".">HTML</option>
+                                            <option value=".">CSS</option>
+                                        <optgroup label="Back">
+                                            <option value=".">JavaScript</option>
+                                            <option value=".">Java</option>
+                                            <option value=".">NodeJS</option>
+                                        </optgroup>
+                                    </select>
+                                </div>
+                                <div>
+                                    <p>Sede</p>
+                                    <input type="radio" name="sede" id="Madrid" value="madrid" required>
+                                    <label for="madrid">Madrid</label>
+                                    <input type="radio" name="sede" id="Barcelona" value="Barcelona">
+                                    <label for="barcelona">Barcelona</label>
+                                    <input type="radio" name="sede" id="Cádiz" value="Cádiz">
+                                    <label for="">Cádiz</label>
+                                </div>
+                            </fieldset>
+
+                        </fieldset><button type="submit">Enviar</button>
+                        <button type="reset">Reset</button>
                     </form>
                 </header>
             </section>
