@@ -31,12 +31,16 @@ section p:nth-child(1) {
 } 
 */
 
+/*Herencia: 
+-la fuente sí se hereda
+-el borde no se hereda
+*/
+
 body{
     font-family: 'Roboto Slab', serif;
-    border: {
-        1px solid
+    border:  1px solid
     }
-}
+
 head{
     font-family: 'Pacifico', cursive;
 }
