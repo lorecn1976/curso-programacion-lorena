@@ -24,7 +24,7 @@ body {
        margin: 2rem
    }
 
-.main-footer {
+   body>footer {
     background-color: brown;
     color: bisque;
     padding-top: 1rem;
