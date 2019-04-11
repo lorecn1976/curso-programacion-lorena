@@ -1,3 +1,5 @@
+
+
 section p::first-letter       {
     font-size: 4rem;
 }
@@ -41,6 +43,10 @@ body{
     border:  1px solid
     }
 
-head{
+header{
     font-family: 'Pacifico', cursive;
+}
+
+*:not(p){
+    color: blue
 }
