@@ -8,7 +8,7 @@ aside p::first-line{
 }
 
 section div p::before{
-    content: "Atención, importante: "
+    content: ""
 }
 
 p:hover {
@@ -16,8 +16,27 @@ p:hover {
     }
 
 a:visited {
-        color: blue
+        color: chocolate
     }
 section p:nth-child(1) {
         color: aqua
     }
+
+    section p:nth-of-type(even) {
+        color: blue
+    }
+
+/* *{
+    display: inline;
+} 
+*/
+
+body{
+    font-family: 'Roboto Slab', serif;
+    border: {
+        1px solid
+    }
+}
+head{
+    font-family: 'Pacifico', cursive;
+}
