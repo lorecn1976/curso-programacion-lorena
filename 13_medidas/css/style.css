@@ -1,0 +1,14 @@
+section{
+    font-size: 0.9em;
+}
+
+div{
+    font-size: 0.8em;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    /*font-size: 1rem---permite cambiar el tamaño de la fuente. Ponerla más grande o más pequeña segun lo necesite. Si se da la medida en pixeles no permite cambiar, pq tiene pixeles indicados/valor absoluto, que no se cambia. NUNCA PONER EL VALOR DE LA FONT EN PIXELES*/
+
+    font-size: 0.8rem;   
+    padding: 2rem
+}
