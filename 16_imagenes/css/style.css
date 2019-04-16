@@ -1,0 +1,15 @@
+img{
+    width: fit-content;
+    max-width: 100%;
+}
+
+.image-wrapper{
+    width: 50%;
+    float: right;
+    margin-right: 1rem
+    
+}
+.image-wrapper-75{
+    width: 75%
+}
+    
