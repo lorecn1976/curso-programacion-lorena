@@ -1,22 +1,73 @@
-img{
-    width: fit-content;
+img {
+    /* width: fit-content; */
     max-width: 100%;
 }
 
-.image-wrapper{
+p {
+    text-align: justify;
+}
+
+.image-wrapper-50 {
     width: 50%;
+    /* float: left;
+    margin-right: 1rem; */
     float: right;
-    margin-right: 1rem
-    
+    margin-left: 1rem;
 }
-.image-wrapper-75{
-    width: 75%
+
+.image-wrapper-25 {
+    width: 25%;
 }
-.clearfix{
+
+.image-wrapper-75 {
+    width: 75%;
+}
+
+.clearfix {
     clear: both;
     border-top: 1px solid gainsboro
-}    
+}
+
+
+/* .fondos {
+    height: 100vh;    
+    background-color: #468CE1;
+    background-image: url(../assets/3boats.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+    background-blend-mode: soft-light;
+} */
 
 .fondos{
-    background-image: url("../assets/")
+    height: 100vh
+}
+
+.fondos {
+    height: 100vh; 
+    position: relative;
+}
+
+.fondos::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    /* height: 100vh;  */
+    background-color: #468CE1;
+    background-image: url(../assets/3boats.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.25;
+    /*Hecho en clase el miercoles*/
+}
+
+.fondos h2 {
+    text-align: center;
+    padding-top: 25vh;
+    color: #F12524;
 }
