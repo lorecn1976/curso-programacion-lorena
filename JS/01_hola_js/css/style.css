@@ -1,0 +1,12 @@
+section{
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+.item-flex{
+    background-color: salmon;
+    text-align: center;
+    padding: 2rem;
+}
