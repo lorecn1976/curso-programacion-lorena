@@ -7,6 +7,8 @@ let edad = 34 //Declarar e inicializar
 
 //Tipos de datos
 
+//A DATOS PRIMITIVOS (son inmutables, no cambian, se destruyen y se crea nuevo)
+
 //undefined
 let data
 console.log(data)
@@ -28,6 +30,9 @@ data = true
 data = false
 console.log(data)
 console.log(typeof data)
+
+
+//B-DATOS REFERENCIADOS (son mutables, pueden cambiar)
 
 //object
 data = {nombre: 'Pepe', edad: 34}
