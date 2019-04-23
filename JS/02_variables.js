@@ -16,6 +16,7 @@ En JS los tipos son:
 
 */
 
+
 // undefined
 let data
 console.log(data)
