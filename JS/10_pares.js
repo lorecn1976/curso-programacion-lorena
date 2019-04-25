@@ -26,9 +26,15 @@ console.log(cadena) */
   * Posibles valores
   *     0 pares
   *     1 impares
+  *     2 numeros decimales
+  *     3 no numeros
   * */
  
  function  calculaQueEs(num) {
+     if (isNaN(num)){
+            //no numero
+            return 3
+    }
     return num % 2
 }
 
@@ -42,8 +48,8 @@ console.log(cadena) */
 *    false impar
 */
 
-function isPar(num) {
-    return !(num % 2)
+function isPar(num) { 
+   return !(num % 2)
 }
 
 function isImpar(num) {
