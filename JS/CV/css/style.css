@@ -1,14 +1,17 @@
 
 /*Selector de descendientes: operador es el espacio*/
 section p {
-    color: brown
+    color: black;
+}
+
+h1 {
+    background-color: blue;
+    color: aqua
+
 }
 
 /*Selector de hijo: operador >*/
 
-section>p {
-    color: darkgreen
-}
 
 /*Selector de hermanos adyacentes: operador +*/
 
@@ -21,3 +24,22 @@ div+p {
 div~p {
     color: darkblue
 }
+
+<img src="./assets/flamenca.jpg" alt="flamenca">
+
+footer {
+    background: #565454;
+    color: #ffffff;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+   }
+
+footer p {
+    background-color: thistle;
+        text-align: center;
+}
+
+aside{
+    color: coral
+}
+
