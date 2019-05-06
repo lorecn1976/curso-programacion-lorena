@@ -1,31 +1,32 @@
 /**
- * Notacion literal o JSON
+ * Notación literal o JSON
  */
 
-// user1=new usuario
-// user2=new usuario
+ // user1 = new Usuario
+ // user2 = new Usuario
 
-let user1 = {
+ let user1 = {
     nombre: 'Pepe',
     edad: 24,
     isAlumno: true,
-    direccion: {
+    direccion : {
         calle: 'Pez',
-        numero: '3',
+        num: '3',
         poblacion: 'Madrid'
     },
-    saludar: function(){
-        console.log(`Hola, soy ${this.nombre}`)
-    }
+    saludar: function () {
+        console.log(`Hola, soy ${this.nombre} y mi tengo ${this.edad} años`)
+    },
+    altura: 179
 }
 
 let user2 = {
     nombre: 'Rosa',
     edad: 27,
-    Curso:'Front'
+    curso: 'Front'
 }
 
-useri.nombre ='Jose'
-useri.curso ='Back'
+user1.nombre = 'Jose'
+user1.curso  = 'Back'
 
 user1.saludar()
