@@ -60,14 +60,15 @@ vuelo.toString = function (obj = this) {
     return output
 }
 
-vuelo.mostrarFinal = function () {
-    console.log(this.toString())
-}
-
-// vuelo.mostrar()
-
-vuelo.mostrarFinal()
-
+ output = output + `El mes ${key} en ingles se dice ${element}` + '\n'
+            }
+        }
+        return output
+    },
+    mostrar:function(){
+        console.log(this.toString)
+    }
+     mesesEnIngles.mostrar()
 
 
 
