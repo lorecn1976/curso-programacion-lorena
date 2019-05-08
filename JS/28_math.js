@@ -1,15 +1,18 @@
 
 
-function areaCirculo(radio) {
+function areaCirculo(radio = 1) {
     let area = Math.PI * radio * radio
     return area.toFixed(2)
-    round (area)
 }
 
 console.log(areaCirculo(2))
 
-function numeroAlAzar(){
-    return Math.random()
+
+function numeroAlAzar() {
+    return parseInt(Math.random()*100)
+    
 }
 
-console.log (numeroAlAzar())
+for (let i = 0; i < 20; i++) {
+    console.log(numeroAlAzar())
+}
